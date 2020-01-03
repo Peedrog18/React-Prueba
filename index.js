@@ -5,7 +5,6 @@ import './style.css';
 
 let nombre = "Uriel";
 
-
 function A(){
   return <p>Hola {nombre} </p>;
 }
@@ -28,8 +27,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        < A />
-        < B />
+        <A />
+        <B />
       </div>
     );
   }
